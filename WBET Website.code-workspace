@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "WBET Website",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WBET Website",
+		"liveServer.settings.port": 5502
+	}
+}

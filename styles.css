@@ -1,0 +1,74 @@
+.navImage {
+    height: 100vh;
+    background-image: url(/images/Judo-Stretch.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navitem {
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-display: black;
+}
+
+
+
+video{
+    width: 100%
+}
+
+.carousel img{
+height: 400px;
+object-fit: cover;
+}
+
+.member {
+
+   background:transparent;
+   border:none;
+    margin: 10px;;
+    box-shadow: none;
+
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member {
+    transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.logo{ 
+    height: 100px;
+    width: auto;
+    margin-top: -20px;
+}
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ .card-img-top{ 
+    height: 250px; 
+    object-fit: cover; 
+} 
+
+.blogesm {
+    height: 100vh;
+    background-image: url(/images/hand\ tricep.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
