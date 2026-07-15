@@ -1,6 +1,6 @@
 .navImage {
     height: 100vh;
-    background-image: url(/images/Judo-Stretch.jpg);
+    background-image: url(images/Judo-Stretch.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -66,7 +66,7 @@ object-fit: cover;
 
 .blogesm {
     height: 100vh;
-    background-image: url(/images/hand\ tricep.JPG);
+    background-image: url(images/hand\ tricep.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
