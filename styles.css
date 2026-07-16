@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#article {
+    scroll-margin-top: 20px;
+}
+
 .navImage {
     height: 100vh;
     background-image: url(images/Judo-Stretch.jpg);
@@ -71,4 +79,95 @@ object-fit: cover;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+/* ---- Brand styles (previously referenced in HTML but undefined) ---- */
+
+.font-Serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.font-color,
+.font-color-black {
+    color: #3d2b1f;
+}
+
+.cardheading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+}
+
+.headingclass {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6b4a37;
+    font-weight: 700;
+}
+
+.brand-title {
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    padding-right: 2rem !important;
+}
+
+.footerClass {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footerClass:hover {
+    color: #6b4a37 !important;
+    text-decoration: underline;
+}
+
+.background-mint {
+    background-color: #eaf1ea;
+}
+
+.btn-fun {
+    background-color: #6b4a37;
+    border: 2px solid #6b4a37;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.btn-fun:hover,
+.btn-fun:focus {
+    background-color: #543a2a;
+    border-color: #543a2a;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ---- Mobile / responsive fixes ---- */
+
+@media (max-width: 768px) {
+    .navImage,
+    .blogesm {
+        height: auto;
+        min-height: 60vh;
+        /* background-attachment: fixed is unreliable on mobile browsers (esp. iOS Safari) */
+        background-attachment: scroll;
+    }
+
+    .carousel img {
+        width: 90% !important;
+        height: 280px;
+    }
+
+    .display-3 {
+        font-size: 2.25rem;
+    }
+
+    .display-4 {
+        font-size: 1.85rem;
+    }
+
+    .brand-title {
+        font-size: 1.15rem;
+        letter-spacing: 1.5px;
+        padding-right: 0 !important;
+    }
 }
